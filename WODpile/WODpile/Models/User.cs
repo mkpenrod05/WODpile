@@ -16,6 +16,6 @@ namespace WODpile.Models
     [Table("***Table Name***")]
     public class UserData : DbContext 
     {
-        public DbSet<User> UserData { get; set; }    
+        public DbSet<User> UserDataSet { get; set; }    
     }
 }
