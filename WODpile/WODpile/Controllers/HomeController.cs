@@ -9,6 +9,8 @@ namespace WODpile.Controllers {
     public class HomeController : Controller {
 
         public ActionResult Index() {
+            
+            //The view returned here will be the name of this action method - Index.cshtml
             return View();
         }
 

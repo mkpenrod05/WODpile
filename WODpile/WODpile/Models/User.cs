@@ -13,7 +13,6 @@ namespace WODpile.Models
         public string UserName { get; set; }
     }
 
-    [Table("***Table Name***")]
     public class UserData : DbContext 
     {
         public DbSet<User> UserDataSet { get; set; }    
